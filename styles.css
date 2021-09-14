@@ -1,0 +1,153 @@
+* {
+  /* border: 1px solid black; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.fas {
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: #2B2B2B;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: minmax(auto, auto);
+  grid-gap: 5px;
+}
+
+.fa-user-circle {
+  font-size: 2em;
+  padding: 10px 15px 0px 15px;
+}
+
+.admin-username {
+  color: #25B8FE;
+  font-size: 1.2em;
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa-sort-down {
+  font-size: 2em;
+  color: #25B8FE;
+  padding: 10px 15px 20px 15px;
+}
+
+nav {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: 25% 25% 30% 20%;
+}
+
+.nav-shares {
+  color: white;
+  font-size: .3em;
+}
+
+.nav-playlist, .nav-videos {
+  color: #9A9A9A;
+}
+
+.fa-share-alt, .fa-list-ul, .fa-user {
+  font-size: 1.4em;
+  padding: 0px 15px 0px 15px;
+}
+
+.fa-list-ul, .fa-user {
+  color: #25B8FE;
+}
+
+.logo {
+  grid-column: span 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+main {
+  padding: 20px 20px 0px 20px;
+  color: #4D4D4D;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  grid-auto-rows: minmax(50%, 50%);
+  grid-gap: 30px;
+}
+
+.grid-items {
+  box-shadow: 10px 10px 10px 10px #9A9A9A;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30% 70%;
+}
+
+.card-header {
+  background-image: url("https://i.redd.it/y911rv3783n71.jpg");
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-rows: minmax(50%, auto);
+}
+
+.fa-share {
+  font-size: 4em;
+  grid-column: span 1;
+}
+
+.views {
+  font-size: 1em;
+  grid-column: 3 / 4;
+  grid-row: 1 / 1;
+}
+
+.number-of-views {
+  font-size: 4em;
+  grid-column: 3 / 4;
+  grid-row: 1 / 1;
+}
+
+.card-body {
+  margin: 20px;
+  padding: 0px;
+}
+
+.name {
+  margin-bottom: 0px;
+}
+
+.date {
+  margin-top: 0px;
+  font-weight: 200;
+}
+
+.link {
+  padding: 10px 20px 10px 20px;
+  word-wrap: break-word;
+}
+
+.playlist {
+  margin: 10px 0px 0px 0px;
+}
+
+.name-of-playlist {
+  margin: 0px 0px 10px 0px;
+}
+
+.attchments {
+  margin: 0px;
+}
+
+.number-of-attachments {
+  margin: -10px 0px 0px 0px;
+  color: #25B8FE;
+  font-size: 4em;
+}
