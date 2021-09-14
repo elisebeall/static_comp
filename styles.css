@@ -1,6 +1,7 @@
 * {
   /* border: 1px solid black; */
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .fas {
@@ -44,12 +45,11 @@ header {
 nav {
   grid-column: span 1;
   display: grid;
-  grid-template-columns: 25% 25% 30% 20%;
+  grid-template-columns: 25% 25% 35% 15%;
 }
 
 .nav-shares {
   color: white;
-  font-size: .3em;
 }
 
 .nav-playlist, .nav-videos {
@@ -77,6 +77,10 @@ main {
   color: #4D4D4D;
 }
 
+h1 {
+  font-weight: 800;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
@@ -85,7 +89,7 @@ main {
 }
 
 .grid-items {
-  box-shadow: 10px 10px 10px 10px #9A9A9A;
+  box-shadow: 3px 3px 3px 3px #9A9A9A;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 30% 70%;
@@ -94,25 +98,31 @@ main {
 .card-header {
   background-image: url("https://i.redd.it/y911rv3783n71.jpg");
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-auto-rows: minmax(50%, auto);
+  grid-gap: 10%;
+  grid-template-columns: 45% 45%;
+  grid-auto-rows: minmax(45%, 45%);
+  align-self: end;
 }
 
 .fa-share {
-  font-size: 4em;
-  grid-column: span 1;
+  font-size: 5em;
+  /* padding: 20px 0px 0px 10px; */
+  grid-row: 1 / 3;
 }
 
 .views {
-  font-size: 1em;
-  grid-column: 3 / 4;
-  grid-row: 1 / 1;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: white;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .number-of-views {
   font-size: 4em;
-  grid-column: 3 / 4;
-  grid-row: 1 / 1;
+  color: white;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .card-body {
@@ -121,33 +131,40 @@ main {
 }
 
 .name {
+  font-weight: 700;
   margin-bottom: 0px;
 }
 
 .date {
+  font-weight: 100;
   margin-top: 0px;
   font-weight: 200;
 }
 
 .link {
+  font-weight: 100;
   padding: 10px 20px 10px 20px;
   word-wrap: break-word;
 }
 
 .playlist {
+  font-weight: 600;
   margin: 10px 0px 0px 0px;
 }
 
 .name-of-playlist {
-  margin: 0px 0px 10px 0px;
+  font-weight: 800;
+  margin: 0px 0px 30px 0px;
 }
 
 .attchments {
+  font-weight: 600;
   margin: 0px;
 }
 
 .number-of-attachments {
-  margin: -10px 0px 0px 0px;
+  font-weight: 100;
+  margin: -20px 0px 0px 0px;
   color: #25B8FE;
   font-size: 4em;
 }

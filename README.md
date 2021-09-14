@@ -1,5 +1,4 @@
-# Title
-Mod2 + Static Comp Challenge
+# Mod2 + Static Comp Challenge
 
 ## Table of Contents
   - [Abstract](#abstract)
