@@ -5,7 +5,7 @@
   - [Technologies](#technologies)
   - [Illustrations](#illustrations)
   - [Contributors](#contributors)
-	- [Challenges + Improvements](#challenges-+-Improvements)
+  - [Challenges + Improvements](#challenges-+-Improvements)
   - [Project Specs](#project-specs)
 
 ## Abstract
